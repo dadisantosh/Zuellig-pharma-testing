@@ -1,26 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<<<<<<< HEAD
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test">
-    <classes>
-      <class name="TestNG.Sample"/>
-=======
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test verbose="2" name="Default test">
     <classes>
       <class name="TestNG.ZP_scripts"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="TestNG.ZP_scripts">
-        <methods>
-          <include name="testcase1"/>
-          <include name="before"/>
-        </methods>
-      </class> <!-- TestNG.ZP_scripts -->
->>>>>>> 9d1073435435507aa9ee18f5cc972c1c9ac2ac10
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Failed suite [Suite] -->
+</suite> <!-- Failed suite [Default suite] -->

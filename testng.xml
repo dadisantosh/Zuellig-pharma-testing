@@ -2,16 +2,14 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite" >
   <test name="Test">
-<<<<<<< HEAD
-    <classes >
-      <class name="TestNG.Sample"/>
-	 
-=======
-    <classes>
-      <class name="TestNG.ZP_scripts"/>
-      <class name="TestNG.CreateProfile"/>	  
->>>>>>> 9d1073435435507aa9ee18f5cc972c1c9ac2ac10
 
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+    <classes >
+     
+	 
+
+ 
+      <class name="TestNG.ZP_scripts"/>
+   	  
+        </classes>
+  </test> 
+</suite> 

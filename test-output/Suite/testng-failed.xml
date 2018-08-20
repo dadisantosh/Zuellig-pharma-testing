@@ -4,6 +4,24 @@
   <test name="Test">
     <classes>
       <class name="TestNG.Sample"/>
+      <class name="TestNG.ZP_scripts"/>
     </classes>
   </test> <!-- Test -->
+  <test name="Test(failed)">
+    <classes>
+      <class name="TestNG.Sample">
+        <methods>
+          <include name="openbrowser"/>
+        </methods>
+      </class> <!-- TestNG.Sample -->
+      <class name="TestNG.ZP_scripts">
+        <methods>
+          <include name="testcase5"/>
+          <include name="testcase4"/>
+          <include name="testcase6"/>
+          <include name="before"/>
+        </methods>
+      </class> <!-- TestNG.ZP_scripts -->
+    </classes>
+  </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

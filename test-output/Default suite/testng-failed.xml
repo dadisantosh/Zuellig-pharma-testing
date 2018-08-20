@@ -6,19 +6,4 @@
       <class name="TestNG.ZP_scripts"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="TestNG.ZP_scripts">
-        <methods>
-<<<<<<< HEAD
-          <include name="after"/>
-          <include name="testcase6"/>
-=======
-          <include name="testcase1"/>
->>>>>>> 9d1073435435507aa9ee18f5cc972c1c9ac2ac10
-          <include name="before"/>
-        </methods>
-      </class> <!-- TestNG.ZP_scripts -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
