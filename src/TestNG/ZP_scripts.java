@@ -22,7 +22,7 @@ public class ZP_scripts {
 	@BeforeClass
 	public void before() throws Exception
 	{
-		System.out.println("before");
+		System.out.println("launch broswe chrome");
 		driver=LaunchBrowser.execute(driver, report);
                 System.out.println("webdriver executed"); 	
 	}

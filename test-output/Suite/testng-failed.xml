@@ -1,27 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test name="Test">
-    <classes>
-      <class name="TestNG.Sample"/>
-      <class name="TestNG.ZP_scripts"/>
-    </classes>
-  </test> <!-- Test -->
+<suite name="Failed suite [Suite]">
   <test name="Test(failed)">
     <classes>
       <class name="TestNG.Sample">
         <methods>
+          <include name="open"/>
           <include name="openbrowser"/>
         </methods>
       </class> <!-- TestNG.Sample -->
-      <class name="TestNG.ZP_scripts">
-        <methods>
-          <include name="testcase5"/>
-          <include name="testcase4"/>
-          <include name="testcase6"/>
-          <include name="before"/>
-        </methods>
-      </class> <!-- TestNG.ZP_scripts -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

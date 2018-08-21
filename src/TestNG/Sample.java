@@ -11,6 +11,7 @@ public class Sample {
 	@BeforeMethod
 	public void openbrowser()
 	{
+		
 		System.setProperty("webdriver.chrome.driver", "D://chromedriver.exe");
 		driver = new ChromeDriver();
 	}
